@@ -1,5 +1,6 @@
 services:
   nextserver:
+    restart: always
     build:
       context: ./nextjs-app
     ports:
